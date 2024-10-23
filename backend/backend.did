@@ -1,0 +1,6 @@
+service : {
+  add: (float64, float64) -> (float64) query;
+  divide: (float64, float64) -> (opt float64) query;
+  multiply: (float64, float64) -> (float64) query;
+  subtract: (float64, float64) -> (float64) query;
+}
